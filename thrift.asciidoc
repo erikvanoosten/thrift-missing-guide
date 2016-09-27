@@ -23,6 +23,8 @@ Buffer Language Guide]. I thank the authors of that document.
 
 A link:thrift.pdf[PDF version] is also available.
 
+link:rpc-specification.html[Thrift RPC] is described here also.
+
 .Copyright
 
 Copyright (C) 2013 Diwaker Gupta
