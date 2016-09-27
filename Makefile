@@ -56,7 +56,7 @@ pdf:
 all: default pdf
 
 clean:
-	rm -f index.html *.png
+	rm -f index.html rpc-specification.html *.png
 
 publish: default pdf
 	./publish.sh
