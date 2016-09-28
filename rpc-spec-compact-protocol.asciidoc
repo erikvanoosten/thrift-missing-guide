@@ -20,7 +20,7 @@ The zigzag int is then encoded as a *var int*. Var ints take 1 to 5 bytes (int32
 significant bit of each byte indicates if more bytes follow. The concatenation of the least significant 7 bits from each
 byte form the number, where the first byte has the most significant bits (so they are in big endian or network order).
 
-Var ints are sometimes used directly inside the compact protocol to represent positive numbers.
+Var ints are sometimes used directly inside the compact protocol to represent numbers that are usually positive.
 
 To encode an `int16` as zigzag int, it is first converted to an `int32` and then encoded as such. The type `int8` simply
 uses a single byte as in the binary protocol.
