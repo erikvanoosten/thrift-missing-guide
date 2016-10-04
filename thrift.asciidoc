@@ -14,7 +14,9 @@ Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk, and OCaml.
 Thrift is clearly abundant in features. What is sorely lacking though is _good_
 documentation. This guide is an attempt to fill that hole. But note that this is
 a reference guide -- for a step-by-step example on how to use Thrift, refer to
-the Thrift tutorial.
+the Thrift tutorial. For understanding of Thrift's internals you are referred to the
+https://thrift.apache.org/static/files/thrift-20070401.pdf[Thrift white paper (pdf)]
+and the https://erikvanoosten.github.io/thrift-missing-specification/[Thrift missing specification].
 
 Many aspects of the structure and organization of this guide have been borrowed
 from the (excellent)
